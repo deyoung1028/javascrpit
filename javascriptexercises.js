@@ -34,8 +34,9 @@ function isInArray(item) {
     for (let i = 0; i <myArray.length; i++) {
         if(myArray[i] === item) {
             return true
-        }else {
-            return false
+        }
+    else {
+      return false
         }
         
     }

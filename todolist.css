@@ -1,0 +1,106 @@
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+label {
+    display: flex;
+    font-size:xx-large;
+    color: snow;
+    font-family:'Courier New', Courier, monospace;
+    color: #fff;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 3px;
+    background-color: lightseagreen;
+    border: double 2px gray
+}
+#addButton {
+    background-color: rgb(65, 170, 170);
+    color: snow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    justify-content: right;
+    width: 100px;
+    margin: 20px;
+}
+
+#taskTextBox {
+    border-radius: 5px;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    padding-top: 50px;
+    border: solid 5px teal;
+    background-image: linear-gradient(teal, lightgray );
+    /* background-color: rgb(65, 170, 170); */
+    border-radius: 15px;
+   
+    
+}
+
+.pendingTasks .completedTasks {
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+
+}
+
+ul {
+    list-style: none;
+    width: 400px;
+
+}
+
+li {
+    border: 1px teal;
+    background-color: rgb(79, 202, 202);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem;
+    
+}
+
+
+
+.taskName {
+    color: whitesmoke ;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 25px;
+
+
+}
+
+h3 {
+    color:snow;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li input {
+    order: -1
+}
+
+.removeButton {
+    border-radius: 5px;
+    background-color: lightseagreen;
+    color: snow;
+}
+
+input[type="checkbox"] {
+    background-color: lightseagreen;
+    border: solid 5pt teal;
+}
