@@ -11,6 +11,7 @@ addButton.addEventListener("click",function() {
     // to add class in js to an element created in js
     listItem.setAttribute("class", "taskName") //for css
     listItem.innerHTML = task
+    taskTextBox.value=""
     let removeButton = document.createElement("button")
     removeButton.setAttribute("class", "removeButton")
     removeButton.addEventListener("click", function(){
