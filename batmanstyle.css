@@ -1,0 +1,27 @@
+body {
+    background-image: url "https://unsplash.com/photos/y21qF5V_k6Q"
+    
+}
+
+#batmanmovieslist {
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+
+}
+
+.movieDiv{
+display: flex;
+flex-direction: column;
+width: 100px;
+height: 300px;
+margin: 10px;
+
+}
+
+h6 {
+    
+}

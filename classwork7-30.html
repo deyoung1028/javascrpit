@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <title>Document</title>
+</head>
+<body>
+    <form> 
+        First Name: <input type = "text" required/>
+        Last Name: <input type = "text" required/>
+        Email:<input type = "text" pattern = "^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" required/>
+         <p>Password: one lower case letter,</p> 
+        <p>one upper case letter, one digit, 6-13 length</p>
+        <p>, and no spaces.</p>
+        Password: <input type = "text","hidden" pattern = "^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{4,8}$" required/>
+
+    </form>
+</body>
+</html>

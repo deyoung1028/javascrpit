@@ -2,16 +2,16 @@ const newsUL = document.getElementById("newsUL")
 let newsItems = news.articles
 
 window.addEventListener("load", function(){
-     newsItems.map(function(newsItems){
+     newsItems.map(function(article){
        
         let item = `
         <li> 
-        <img src = "${newsItems.urlToImage}"/>
-            <h1>${newsItems.title}</h1>
-            <h2>${newsItems.description}</h2>
-            <h3>${newsItems.url}</h3>
-            <h4>${newsItems.author}</h4>
-            <h4>${newsItems.publishedAt}</h4>
+        <img src = "${article.urlToImage}"/>
+            <h1>${article.title}</h1>
+            <h2>${article.description}</h2>
+            <h3>${article.url}</h3>
+            <h4>${article.author}</h4>
+            <h4>${article.publishedAt}</h4>
 
         </li>
         
