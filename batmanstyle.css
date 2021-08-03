@@ -1,7 +1,18 @@
-body {
-    background-image: url "https://unsplash.com/photos/y21qF5V_k6Q"
+
+@media (min-width:1281px) {
+  
     
 }
+
+body {
+    
+    background-image: url("https://source.unsplash.com/hmxJGMq9BAQ");
+    background-size: cover;
+    
+
+    
+}
+
 
 #batmanmovieslist {
 
@@ -9,7 +20,8 @@ body {
     flex-wrap: wrap;
     height: 100%;
     width: 100%;
-    align-items: center;
+    justify-content: center;
+    
 
 }
 
@@ -18,10 +30,27 @@ display: flex;
 flex-direction: column;
 width: 100px;
 height: 300px;
-margin: 10px;
+margin: 15px;
 
 }
 
 h6 {
+    font-size: 24px;
+    color: darkgoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
     
+}
+
+#movieSpecs {
+    text-align: center;
+    font-size: 24px;
+    color: darkgoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    margin: 125px;
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
 }
