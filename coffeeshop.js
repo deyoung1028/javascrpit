@@ -21,7 +21,7 @@ sizeofcoffee.addEventListener("change", function(){
 getcoffeeorderbtn.addEventListener("click", function(){
     getAllCoffeeOrders()
 })
-function getAllCoffeeOrders(completion) {
+function getAllCoffeeOrders() {
 
     let coffeeRequest = new XMLHttpRequest()
     coffeeRequest.open("GET", "https://troubled-peaceful-hell.glitch.me/orders")
