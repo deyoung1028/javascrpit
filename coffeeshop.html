@@ -6,10 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel = "stylesheet" href = "coffeeapp.css"></link>
 </head>
 
 <body>
-    <label for="coffeeorders">Jennie's Java</label>
+
+    <h1>Jennie's Java</h1>
+
     <br></br>
     <button id="getcoffeeorderbtn">Get Orders</button>
     <br></br>
@@ -30,17 +33,18 @@
         <option value="large">LARGE</option>
            </select>
     
-    <input type="text" id ="price" placeholder="PRICE" readonly="readonly" value="3.99">
+            <input type="text" id ="price" placeholder="PRICE" readonly="readonly" value="3.99">
     <button id="addOrderBtn"> Add to Order</button>
     <br></br>
     <br></br>
-    <label for = "deleteanOrder">DELETE COFFEE ORDER</label>  
+    <label for = "deleteanOrder">DELETE COFFEE ORDER:</label>  
     <input type="text" id="custEmailtoDelete" placeholder="Enter customer email to delete an order">
     <button id="deletebtn">DELETE ORDER</button>
-
-
+                
+      
 
     <ul id="coffeeorderUL"></ul>
+    
     <script src="coffeeshop.js"></script>
 </body>
 

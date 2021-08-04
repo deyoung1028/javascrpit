@@ -1,0 +1,63 @@
+@media (min-width:1281px) {
+     
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://source.unsplash.com/vs0tzSHVcac");
+    background-size: cover;
+    align-items: center;
+     
+}
+
+#getcoffeeorderbtn {
+    background-color: blanchedalmond;
+    color: olive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    width: 200px;
+    height: 40px;
+}
+
+h1 {
+    background-color: rosybrown;
+    color: saddlebrown;
+    font-family: sans-serif;
+    width:250px;
+    height:75px;
+    text-align: center;
+    margin: 50px;
+    padding-top: 40px;
+    border-radius: 5px;
+    opacity: .85;
+
+}
+
+#custEmail {
+    height: 25px;
+}
+
+label {
+    background-color: blanchedalmond;
+    color: olive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+#coffeeorderUL {
+    background-color: rosybrown;
+    color: saddlebrown;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px;
+    border-radius: 5px;
+    opacity: .85;
+    padding: 25px;
+
+}
+#typesofcoffee {
+    height: 25px;
+}
+
